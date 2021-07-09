@@ -14,11 +14,11 @@ def on_message(client, userdata, msg):
     ]
 	client_influxdb.write_points(data)
 
-broker_adress = "192.168.1.79"
+broker_adress = "Endereço ipV4"
 port1 = "1883"
 port2 = "8086"
 user = "admin"
-password = "admin"
+password = "password"
 dname = "Sensores"
 
 client_influxdb = InfluxDBClient(broker_adress,port2,user,password,dname)
