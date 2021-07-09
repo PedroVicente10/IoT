@@ -1,7 +1,7 @@
 from time import sleep
 import zmq
 
-host = "192.168.1.124"
+host = "endereço ipV4"
 port = "5001"
 
 context = zmq.Context()
