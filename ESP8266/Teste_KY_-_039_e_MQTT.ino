@@ -7,11 +7,11 @@
 
 
 // WiFi
-const char *ssid = "MEO-F93290"; // Enter your WiFi name
-const char *password = "c87fb69396";  // Enter WiFi password
+const char *ssid = "Nome da Rede"; // Enter your WiFi name
+const char *password = "Password";  // Enter WiFi password
 
 // MQTT Broker
-const char *mqtt_broker = "192.168.1.79";
+const char *mqtt_broker = "Endereço ipV4";
 const char *topic = "Teste";
 const int mqtt_port = 1883;
 
