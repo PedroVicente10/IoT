@@ -4,7 +4,7 @@ import paho.mqtt.client as mqtt
 def on_message(client, userdata, msg):
 	print("Informação recebida: "+ str(msg.payload))
 
-broker_adress = "192.168.1.80"
+broker_adress = "Endereço ipV4"
 
 client = mqtt.Client("Sub")
 print("Cliente criado com sucesso")
