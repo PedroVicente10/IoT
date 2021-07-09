@@ -4,7 +4,7 @@ import paho.mqtt.client as mqtt
 def on_message(client, userdata, msg):
 	print("Batimentos cardíacos (bpm): "+ str(msg.payload))
 
-broker_adress = "192.168.1.79"
+broker_adress = "Endereço ipV4"
 port = "1883"
 
 client = mqtt.Client("Sub")
