@@ -3,7 +3,7 @@ import time
 import Adafruit_ADS1x15
 import paho.mqtt.client as mqtt
 
-broker_adress="192.168.1.80"
+broker_adress="Enderço ipV4"
 client = mqtt.Client("Pub")
 print("Cliente criado com sucesso")
 client.connect(broker_adress)
