@@ -2,7 +2,7 @@ import time
 import Adafruit_ADS1x15
 import zmq
 
-host = "192.168.1.124"
+host = "Endereço ipV4"
 port = "5001"
 
 context = zmq.Context()
